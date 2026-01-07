@@ -1,0 +1,10 @@
+services:
+  e-lances:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: e-lances-site
+    ports:
+      - "3009:80"
+    restart: unless-stopped
+
