@@ -27,20 +27,16 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--text-primary);
 }
 
-.logo svg {
-  width: 32px;
-  height: 32px;
-  color: var(--primary);
+.logo-img {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
 }
 
-.logo-highlight {
-  color: var(--primary);
+.footer .logo-img {
+  height: 50px;
 }
 
 .nav-list {

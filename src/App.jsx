@@ -151,8 +151,7 @@ function Header() {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container header-container">
         <a href="#" className="logo">
-          <TargetIcon />
-          <span>E-<span className="logo-highlight">lances</span></span>
+          <img src="/logo.png" alt="E-lances" className="logo-img" />
         </a>
         
         <nav className={`nav ${isMobileMenuOpen ? 'open' : ''}`}>
@@ -582,8 +581,7 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-brand">
             <a href="#" className="logo">
-              <TargetIcon />
-              <span>E-<span className="logo-highlight">lances</span></span>
+              <img src="/logo.png" alt="E-lances" className="logo-img" />
             </a>
             <p className="footer-tagline">
               Automação inteligente para licitações no ComprasNet
